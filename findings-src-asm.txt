@@ -1,17 +1,3 @@
-Verifying correctness...all results agree.
-Starting tests...
-	ReverseBitsLookupTable...10.027604ns per function call
-	ReverseBitsRBIT...10.038939ns per function call
-	ReverseBits7ops32bit...17.215140ns per function call
-	ReverseBits5logNops1...20.059842ns per function call
-	ReverseBits4ops64bit...21.082220ns per function call
-	ReverseBits5logNops2...45.801568ns per function call
-	ReverseBitsObvious...65.735169ns per function call
-	ReverseBits3ops64bit...508.313603ns per function call
-Tests finished
-
-
-
 unsigned char ReverseBitsObvious(unsigned char v)
 {
     unsigned char r = v;
